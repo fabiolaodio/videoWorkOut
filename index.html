@@ -9,13 +9,18 @@
 </head>
 <body>
     <div class="container">
-        <video class="video-background" src="./estilo/video.mp4" autoplay muted loop></video>
+        <video id='video' class="video-background" src="./estilo/video.mp4" autoplay muted loop ></video>
         <div class="background-black"></div>
         <div class="container--title">
             <h1 class="title">Motivation</h1>
         </div>
+        <button class="switch-btn">
+            <span id="play">Play</span>
+            <span id="pause">Pause</span>
 
-       
+            <span id="switch" class="switch"></span>
+        </button>  
     </div>
+    <script src="./javaS.js"></script>
 </body>
 </html>

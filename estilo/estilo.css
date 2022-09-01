@@ -34,3 +34,35 @@ body{
     color: white;
 
 }
+.switch-btn{
+    display: flex;
+    position: absolute;
+    z-index: 4;
+    color: #319DA0;
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    bottom: 7%;
+    left: 7%;
+    height: 2rem;
+    width: 7rem;
+    padding: 0px;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.switch{
+    background-color: #319DA0;
+    left: 0;
+    height: 2rem;
+    width: 50%;
+    position: absolute;
+    border-radius: 8px;
+    padding: 0px;
+    margin: 0px;
+}
+.slide{
+    left: 50%;
+}
